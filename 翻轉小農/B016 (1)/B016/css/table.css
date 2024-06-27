@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+*{font-family: 微軟正黑體;}
+body{
+	background-image: url(../images/back4.jpg);
+	background-size: cover;
+}
+img{
+	position: relative;
+	display: inline-block;
+	left: 300px;
+	width: 200px;
+}
+table{
+	position: relative;
+	left: 50px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+th{
+	background-color: #eee;
+}
+tr:nth-child(even){
+	background-color: #ffc5b6;
+	
+}
+tr:nth-child(odd){
+	background-color: #FBEF87;
+	
+}

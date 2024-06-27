@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    background-color: #f08b5c;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+nav a {
+    position: relative;
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform .3s linear;
+    }
+
+    &:hover::after {
+        transform: scaleX(1);
+        transform-origin: center;
+    }
+}
+
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.a {
+   
+    font-size: 30px;
+    color: #ffffff;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position:sticky ; 
+    top: 20px;
+
+}
+
+.a a {
+    color: #ffffff;
+    text-shadow: 2px 3px 10px #1c1d1c;
+}
+
+h2 {
+    font-size: 65px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-top: 0;
+    color: #ffffff;
+    text-shadow: 2px 3px 10px #1c1d1c;
+}
+
+#b {
+    background: url(./images/bg.jpg) no-repeat center / cover ;
+    width: 100%;
+    height: 100vh;
+}
+/* 
+#b .bg {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    z-index: -1;
+    filter: drop-shadow(50);
+} */
+
+.bstext {
+    font-size: 40px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bstexta {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.bstexta {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#c {
+    background: url(./images/bg4.jpg)no-repeat center/cover;
+    
+}
+
+#e {
+    background: url(./images/bg6.png) no-repeat bottom /80% fixed;
+    & .cards {
+        display: flex;
+        gap: 10px;
+        padding: 10px 10%;
+    }
+    & .card {
+        flex:1 1;
+        /* width: 16rem; */
+        padding: 15px;
+        background-color: #fff;
+
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+        display: flex;          
+        flex-direction: column;
+        align-items: center;
+
+        & h3 {
+            font-size: 24px;
+            margin-block: 10px;
+        }
+
+        & img {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        & .price {
+            color: tomato;
+        }
+
+        & .buy {
+            font-weight: bold;
+            display: flex;
+
+            align-items: center;
+
+            & button {
+                border: 0 solid #000;
+                border-radius: 50%;
+                background: #1cbea1;
+                color: #fff;
+
+                width: 25px;
+                height: 25px;
+                margin: 5px;
+                padding: 0;
+                font-size: 20px;
+                cursor: pointer;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            & input {
+                border: 2px solid #1cbea1;
+                color: #1cbea1;
+
+                text-align: center;
+                font-size: 22px;
+                width: 6rem;
+                border-radius: 6px;
+                margin: 5px;
+            }
+        }
+
+
+    }
+}
+#b,#c,#d,#e,#f{
+    position: relative;
+    background-color: #fff;
+} 
+#d{
+    background: url(./images/bg5.png) no-repeat left /70% fixed;
+    background-color: #ffffff;
+}
+#f{
+    background: url(./images/bg7.png) no-repeat center/60% fixed;
+    background-color: #ffffff;
+}
+.end p{
+    background-color:#f08b5c ;
+    width:100vh ;
+    height: 2px;
+}
